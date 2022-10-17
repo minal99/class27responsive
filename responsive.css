@@ -1,0 +1,148 @@
+
+@media(max-width: 1400px){
+
+}
+@media(max-width: 1200px){
+    
+}
+@media(max-width: 992px){
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo h2 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .menu {
+        padding: 5px;
+    }
+    .background_img {
+        padding: 160px 0;
+    }
+    .img_float {
+        width: 50%;
+        text-align: center;
+    }
+    .img_float {
+        width: 100%;
+    }
+    .img_text_flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img_float img {
+        height: 93%;
+        width: 58%;
+    }
+    .flex_text h3 {
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    .service_icon {
+        padding: 0;
+    }
+    .about_hero{
+        padding-top: 0;
+    }
+}
+@media(max-width: 768px){
+    .menu li a {
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .logo h2 {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .background_content {
+        height: 150px;
+    }
+    .background_content h1 {
+        font-size: 40px;
+    }
+    .background_content h3 {
+        padding: 5px 0;
+    }
+    .background_content a{
+        padding: 13px 20px;
+    }
+    .background_img {
+        padding: 80px 0;
+    }
+    .our_service {
+        padding: 30px 0;
+    }
+    .our_service h2 {
+        font-size: 35px;
+    }
+    .icon_box{
+        margin: 0;
+    }
+    section.about-section.container {
+        padding: 20px 0;
+    }
+    .about_hero {
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+    .contact_box {
+        margin: 10px 50px;
+    }
+    .contact_div {
+        padding: 60px 0;
+    }
+    .contact h2 {
+        padding-top: 30px;
+    }
+    .about_hero p {
+        padding: 0 20px;
+    }
+}
+@media(max-width: 576px){
+    .menu {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+    }
+    .logo h2 {
+        padding-top: 10px;
+    }
+    .background_content h1 {
+        font-size: 34px;
+    }
+    .background_content h3 {
+        font-size: 15px;
+        font-family: arial;
+        font-weight: 400;
+    }
+    .background_img {
+        padding: 60px 0;
+    }
+    .menu li {
+        padding: 5px 0px;
+    }
+    .background_content a {
+        padding: 10px 12px;
+    }
+    .icon_box {
+        display: block;
+        margin: auto;
+    }
+    .contact h2 {
+        font-size: 35px;
+    }
+    .contact p {
+        padding: 0 10px;
+    }
+}
+@media(max-width: 360px){
+    .social_icon i {
+        padding: 13px;
+        font-size: 15px;
+    }
+    footer h4 {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfloat::after {
+    content: '';
+    float: both;
+    display: block;
+}
+
+/* HEADER SECTION CSS START */
+.header_section {
+    background-color: rgb(34, 195, 163);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: inline-block;
+}
+
+.logo h2 {
+    padding: 25px;
+    color: white;
+}
+
+nav {
+    display: inline-block;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 20px;
+    display: inline-block;
+    transition: all .5s ease;
+}
+.menu li a:hover{
+    color: black;
+}
+/* HEADER SECTION CSS END------------------ */
+/* BACKGROUND SECTON CSS START */
+.background_content {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.background_img {
+    background-image: url(./img/header-bg01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0;
+}
+
+.background_content h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.background_content h3 {
+
+    padding: 20px 0;
+}
+
+.background_content a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 15px 20px;
+    display: inline-block;
+    font-family: arial;
+    border-radius: 5px;
+    transition: .5s;
+}
+.background_content a:hover{
+    background-color: white;
+    color: rgb(34, 195, 163);
+    border: 1px solid rgb(34, 195, 163);
+}
+
+/* BACKGROUND SECTON CSS END--------------------- */
+/* OUR SERVICE SECTION START */
+.service_icon{
+    text-align: center;
+    padding: 70px 0;
+    border-bottom: 2px solid rgb(34, 195, 163);
+}
+.our_service{
+    text-align: center;
+    padding: 60px 0;
+}
+.our_service h2{
+    font-size: 40px;
+    color: rgb(93, 93, 93);
+}
+.our_service p{
+    color: rgb(93, 93, 93);
+}
+.icon_box{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    margin: 0 30px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon_box h3{
+    font-size: 25px;
+    padding: 28px 0;
+    color: rgb(93, 93, 93);
+}
+.icon_box p{
+    color: rgb(93, 93, 93);
+    line-height: 25px;
+}
+.icon_box i{
+    color: rgb(34, 195, 163);
+}
+/* OUR SERVICE SECTION END------------------------- */
+/* ABOUT SECTION CSS START */
+.about_hero{
+    text-align: center;
+    padding: 40px 0;
+    width: 100%;
+
+}
+.about_hero h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.flex_text h3 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+.img_float {
+    padding: 0 20px;
+    width: 100%;
+}
+.img_float img {
+    height: 100%;
+    width: 100%;
+}
+section.about-section.container {
+    padding: 50px 0;
+}
+/* ABOUT SECTION CSS END ----------------------------- */
+.img_text_flex{
+    display: flex;
+    align-content: flex-start;
+}
+.flex_text{
+    display: block;
+}
+.sub_flex {
+    width: 100%;
+    margin-left: 14px;
+    padding: 0 10px;
+}
+/* CONTACT SECTION CSS START */
+.contact{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+.contact_div {
+    padding: 100px 0;
+    font-size: 20px;
+    color: rgb(34, 195, 163);
+
+}
+.contact h2{
+    font-size: 40px;
+    padding: 20px 0;
+    padding-top: 60px;
+    color: rgb(93, 93, 93);
+}
+.contact p{
+    color: rgb(93, 93, 93);
+}
+.contact_box{
+    display: inline-block;
+    margin: 0 50px;
+}
+/* FOOTER ICON */
+.social_icon{
+    color: white;
+    text-align: center;
+    background-color: rgb(34, 195, 163);
+}
+.social_icon i{
+    padding: 20px;
+    font-size: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+.social_icon i:hover{
+    color: black;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+footer h4{
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
